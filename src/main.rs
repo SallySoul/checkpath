@@ -9,13 +9,13 @@ fn main() {
     while keep_going {
         if path_buf.exists() {
             print!("✔");
-            break;
+            keep_going = false;
         } else {
             print!("✘");
         }
 
         println!(" {}", path_buf.display());
 
-        keep_going = path_buf.pop();
+        keep_going = path_buf.pop() && keep_going;
     }
 }
