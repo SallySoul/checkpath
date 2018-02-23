@@ -1,6 +1,6 @@
 # checkpath
 
-### A utility how much of a path exists
+### How much of a path exists
 
 Sometimes you encounter a really long path, but maybe not all of it exists. This a short tool to quickly help you figure out what's what.
 
